@@ -1,7 +1,28 @@
-@font-face {
-
-}
-
 body {
-    background-color: #D9D4BA;
+  background-color: #9f9b86;
+  font-family: "Courier New", Courier, monospace;
 }
+
+.header {
+  color: white;
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.location {
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.click-stubbyv {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 3rem;
+}
+.click-stubbyd {
+    font-size: 2rem;
+    padding: 1rem;
+    margin-left: 3rem;
+  }
