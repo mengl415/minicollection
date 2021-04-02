@@ -3,6 +3,17 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+h1 {
+  margin: 1rem;
+}
+
+.line{
+  position: absolute;
+  border-top: 3px solid #5F5C4F;
+  width: 80%;
+  margin: 1rem;
+}
+
 .header {
   color: white;
   margin: 2rem;
@@ -10,19 +21,39 @@ body {
   font-weight: 600;
 }
 
-.location {
-  font-size: 2rem;
-  padding: 1rem;
-  margin: 2rem;
+.container{
+    padding: 2rem;
 }
 
-.click-stubbyv {
-  font-size: 2rem;
-  padding: 1rem;
-  margin-left: 3rem;
+.filter{
+    padding: 2rem;
 }
-.click-stubbyd {
-    font-size: 2rem;
+
+
+.unit-container{
     padding: 1rem;
-    margin-left: 3rem;
-  }
+    border-top: 1px solid black;
+    width: 60%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.unit-image {
+    width: 60%;
+    height: auto;
+    display: none;
+}
+
+.unit-image.active{
+    display: block;
+}
+
+.unit-description {
+    display: none;
+}
+
+.unit-description.active{
+    display: block;
+}
+
